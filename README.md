@@ -3,17 +3,14 @@
 ```
 npx create-react-app . --template typescript --use-npm
 ```
-
-- install chartjs
-```
-npm install --save react-chartjs-2 chart.js
-```
-
 - install material UI
 ```
 npm install @material-ui/core
 ```
-
+- material UI 
+```
+https://material-ui.com/
+```
 
 # Getting Started with Create React App
 
