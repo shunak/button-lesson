@@ -4,7 +4,7 @@ import { Button } from "@material-ui/core";
 const MaterialUI: React.FC = () => {
   return (
     <div>
-      <Button variant="contained" color="primary">
+      <Button variant="contained" color="secondary">
         Test Button
       </Button>
     </div>
