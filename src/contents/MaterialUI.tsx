@@ -55,6 +55,56 @@ const MaterialUI: React.FC = () => {
         </Grid>
       </Grid>
 
+      <Grid
+        container
+        spacing={1}
+        direction="column"
+        justify="flex-end"
+        alignItems="flex-end"
+      >
+        <Grid item xs={1}>
+          <Paper className={classes.paperStyle}>xs=1</Paper>
+        </Grid>
+        <Grid item xs={1}>
+          <Paper className={classes.paperStyle}>xs=1</Paper>
+        </Grid>
+        <Grid item xs={1}>
+          <Paper className={classes.paperStyle}>xs=1</Paper>
+        </Grid>
+      </Grid>
+
+      <Grid container spacing={3} direction="column">
+        <Grid item xs={12} container>
+          <Grid item xs={2}>
+            Demo
+          </Grid>
+          <Grid item xs={8} />
+          <Grid item xs={2}>
+            Test
+          </Grid>
+        </Grid>
+        <Grid item xs={12} justify="space-around" container>
+          <Grid item xs={3}>
+            Routes All HTTP methods are supported. You can use http or https for
+            your requests. GET /posts GET /posts/1 GET /posts/1/comments GET
+            /comments?postId=1 POST /posts PUT /posts/1 PATCH /posts/1 DELETE
+            /posts/1 Note: see guide for usage examples.
+          </Grid>
+          <Grid item xs={3}>
+            Routes All HTTP methods are supported. You can use http or https for
+            your requests. GET /posts GET /posts/1 GET /posts/1/comments GET
+            /comments?postId=1 POST /posts PUT /posts/1 PATCH /posts/1 DELETE
+            /posts/1 Note: see guide for usage examples.
+          </Grid>
+          <Grid item xs={3}>
+            Routes All HTTP methods are supported. You can use http or https for
+            your requests. GET /posts GET /posts/1 GET /posts/1/comments GET
+            /comments?postId=1 POST /posts PUT /posts/1 PATCH /posts/1 DELETE
+            /posts/1 Note: see guide for usage examples.
+          </Grid>
+        </Grid>
+      </Grid>
+
       <Button className={classes.btnStyle} variant="contained" color="primary">
         Test Button
       </Button>
